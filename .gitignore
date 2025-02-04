@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Next.js build and cache files
+.next/
+out/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log
+.DS_Store
+
+# Local environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor & System files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+
+# Public uploaded assets (optional, if you want to ignore large files)
+public/uploads/
+public/static/
+
+# Ignore package manager lock files (optional, but recommended for Next.js projects)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Large files
+public/AI-Based Travel Plan Website.mov
