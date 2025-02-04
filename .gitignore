@@ -39,6 +39,3 @@ public/cache/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
-
-# Ignore large files (your specific case)
-public/AI-Based Travel Plan Website.mov

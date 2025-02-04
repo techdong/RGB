@@ -17,9 +17,9 @@ const projects = [
     {
         title: "HSE Performance Data Visualization Report",
         images: [
-            "/HSE Performance Data Analysis & Visualization Report1.jpg",
-            "/HSE Performance Data Analysis & Visualization Report2.jpg",
-            "/HSE Performance Data Analysis & Visualization Report3.jpg",
+            "/HSE Performance Data Analysis & Visualization Report1.png",
+            "/HSE Performance Data Analysis & Visualization Report2.png",
+            "/HSE Performance Data Analysis & Visualization Report3.png",
         ],
         tags: ["Power BI", "Excel", "SQL", "Python", "Pandas"],
         description:
