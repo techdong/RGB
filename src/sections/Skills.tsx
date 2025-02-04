@@ -1,5 +1,5 @@
-import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs, FaGitAlt, FaCogs, FaSync } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiFirebase, SiMysql, SiPython, SiDatabricks, SiTableau } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs, FaGitAlt, FaCogs } from "react-icons/fa";
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMysql, SiPython, SiDatabricks, SiTableau } from "react-icons/si";
 import { GrShare } from "react-icons/gr";
 import { BsMicrosoft } from "react-icons/bs";
 
@@ -22,7 +22,6 @@ const skills = [
     { name: "Microsoft Power BI", icon: <SiDatabricks size={50} /> },
     { name: "Tableau", icon: <SiTableau size={50} /> },
     { name: "Git", icon: <FaGitAlt size={50} /> },
-    // { name: "Firebase", icon: <SiFirebase size={50} /> },
 ];
 
 

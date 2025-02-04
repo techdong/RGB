@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { IoIosGrid } from "react-icons/io";
 import { GiJigsawPiece } from "react-icons/gi";
@@ -44,7 +43,7 @@ export default function AboutSection() {
 
                     {/* Quote */}
                     <p className="mt-6 italic text-purple-200">
-                        "Adventure awaits those who dare to explore!"
+                        &quot;Adventure awaits those who dare to explore!&quot;
                     </p>
 
                     {/* Social Media Icons with Glow and Border Effect */}

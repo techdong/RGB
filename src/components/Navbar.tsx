@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -31,7 +32,7 @@ export default function Navbar() {
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 {/* logo */}
                 <Link href="/" className="flex items-center">
-                    <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
+                    <Image src="/logo.png" alt="Logo" width={120} height={10} />
                 </Link>
 
                 {/* menu for larger screens */}

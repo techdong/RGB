@@ -31,7 +31,7 @@ export default function HomeSection() {
 
         const timer = setTimeout(updateText, speed);
         return () => clearTimeout(timer);
-    }, [text, isDeleting, index]);
+    }, [text, isDeleting, index, speed, words]);
 
     return (
         <section id="home" className="h-screen flex items-center justify-center text-white">
@@ -40,7 +40,7 @@ export default function HomeSection() {
                 <div className="md:w-1/2 text-left">
                     <h1 className="text-6xl font-bold text-purple-50">Hello! 🙋🏻‍♀️</h1>
                     <h2 className="text-5xl font-bold text-purple-200 mt-2">
-                        I'm <span className="text-purple-300">Kako Dong</span>
+                        I&apos;m <span className="text-purple-300">Kako Dong</span>
                     </h2>
                     <h3 className="text-2xl font-semibold mt-2">
                         <span className="text-purple-400">{text}</span>
