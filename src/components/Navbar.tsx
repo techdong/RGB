@@ -11,15 +11,15 @@ export default function Navbar() {
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 0) {
-                setIsScrolled(true); // 如果页面滚动，设置 isScrolled 为 true
+                setIsScrolled(true);
             } else {
-                setIsScrolled(false); // 如果页面回到顶部，设置 isScrolled 为 false
+                setIsScrolled(false);
             }
         };
 
-        window.addEventListener("scroll", handleScroll); // 添加滚动监听器
+        window.addEventListener("scroll", handleScroll);
         return () => {
-            window.removeEventListener("scroll", handleScroll); // 清除监听器
+            window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
@@ -32,7 +32,7 @@ export default function Navbar() {
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 {/* logo */}
                 <Link href="/" className="flex items-center">
-                    <Image src="/logo.png" alt="Logo" width={120} height={10} />
+                    <Image src="/logo.png" alt="Logo" width={150} height={10} />
                 </Link>
 
                 {/* menu for larger screens */}
