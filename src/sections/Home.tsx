@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeSection() {
-    const words = ["Full Stack Engineer", "Frontend Developer", "Backend Developer", "Data Analyst"];
+    const words = useMemo(() => ["Full Stack Engineer", "Frontend Developer", "Backend Developer", "Data Analyst"], []);
+
     const [index, setIndex] = useState(0);
     const [text, setText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);

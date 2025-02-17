@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-const CustomPrevArrow = (props: any) => (
+const CustomPrevArrow = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
     <button {...props} className="absolute left-0.5 top-1/2 transform -translate-y-1/2 z-10 text-white bg-black/5 hover:bg-black/15 p-1 rounded-full">
         <FaChevronLeft size={15} />
     </button>
 );
 
-const CustomNextArrow = (props: any) => (
+const CustomNextArrow = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => (
     <button {...props} className="absolute right-0.5 top-1/2 transform -translate-y-1/2 z-10 text-white bg-black/5 hover:bg-black/15 p-1 rounded-full">
         <FaChevronRight size={15} />
     </button>

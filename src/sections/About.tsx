@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoIosGrid } from "react-icons/io";
 import { GiJigsawPiece } from "react-icons/gi";
 import { MdTravelExplore } from "react-icons/md";
@@ -49,7 +49,7 @@ export default function AboutSection() {
 
                     {/* Contact Prompt */}
                     <p className="mt-6 text-lg font-semibold text-purple-100">
-                        💁🏻‍♀️ Interested in my projects or know more about me? <br/>Feel free to connect with me:
+                        💁🏻‍♀️ Interested in my projects or want to know more about me? <br/>Feel free to connect with me:
                     </p>
 
 
