@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function HomeSection() {
-    const words = ["Frontend Developer", "Backend Developer", "Data Analyst"];
+    const words = ["Full Stack Engineer", "Frontend Developer", "Backend Developer", "Data Analyst"];
     const [index, setIndex] = useState(0);
     const [text, setText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
@@ -18,7 +18,7 @@ export default function HomeSection() {
                 setSpeed(100); // delete speed
             } else {
                 setText((prev) => currentWord.slice(0, prev.length + 1));
-                setSpeed(200); // type speed
+                setSpeed(150); // type speed
             }
 
             if (!isDeleting && text === currentWord) {
@@ -38,7 +38,7 @@ export default function HomeSection() {
             <div className="container mx-auto flex flex-col md:flex-row items-center px-6">
                 {/* 文字部分 */}
                 <div className="md:w-1/2 text-left">
-                    <h1 className="text-6xl font-bold text-purple-50">Hello! 🙋🏻‍♀️</h1>
+                    <h1 className="text-6xl font-bold text-purple-50">Hi! 🙋🏻‍♀️</h1>
                     <h2 className="text-5xl font-bold text-purple-200 mt-2">
                         I&apos;m <span className="text-purple-300">Kako Dong</span>
                     </h2>

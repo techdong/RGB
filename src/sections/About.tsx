@@ -12,17 +12,18 @@ export default function AboutSection() {
                 {/* Left Side: Text Content */}
                 <div className="md:w-1/2 text-left">
                     <h1 className="text-5xl font-bold text-purple-100">Know a bit about <span className="text-purple-400">Kako</span></h1>
-                    <p className="mt-4 text-lg"> 
-                        I am passionate about software development and data analytics,  
-                        continuously exploring new technologies to build innovative solutions.
+                    <p className="mt-4 text-lg">
+                        I am passionate about software development,
+                        continuously exploring new technologies to build innovative and scalable solutions.
                     </p>
                     <p className="mt-4 text-lg">
-                        I have experience in <span className="text-lavenderPurple font-semibold">AI-driven travel planning</span>,  
-                        <span className="text-lavenderPurple font-semibold">data visualization</span>,  
-                        and <span className="text-lavenderPurple font-semibold">automated systems development</span>.  
-                        My projects combine <span className="font-semibold">React, Next.js, Power BI, and AI APIs </span>  
-                        to create impactful applications.
+                        I have experience in <span className="text-lavenderPurple font-semibold">AI-driven applications</span>,
+                        <span className="text-lavenderPurple font-semibold">interactive web development</span>,
+                        and <span className="text-lavenderPurple font-semibold">automation</span>.
+                        My projects integrate <span className="font-semibold">React, Next.js, LLM, and Cloud technologies </span>
+                        to create high-performance and user-friendly applications.
                     </p>
+
 
                     {/* Personal Interests with Icons */}
                     <p className="mt-6 text-lg font-semibold text-purple-300">Apart from developing, I enjoy:</p>
@@ -46,11 +47,16 @@ export default function AboutSection() {
                         &quot;Adventure awaits those who dare to explore!&quot;
                     </p>
 
+                    {/* Contact Prompt */}
+                    <p className="mt-6 text-lg font-semibold text-purple-100">
+                        💁🏻‍♀️ Interested in my projects or know more about me? <br/>Feel free to connect with me:
+                    </p>
+
+
                     {/* Social Media Icons with Glow and Border Effect */}
                     <div className="mt-6 flex space-x-6">
                         {[
                             { href: "https://www.linkedin.com/in/kakosd", icon: <FaLinkedin /> },
-                            { href: "https://www.instagram.com/livingintardis", icon: <FaInstagram /> },
                             { href: "https://github.com/kakosd", icon: <FaGithub /> },
                         ].map((item, index) => (
                             <Link key={index} href={item.href} target="_blank" className="relative group">
