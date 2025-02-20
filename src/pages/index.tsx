@@ -1,19 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import HomeSection from "@/sections/Home";
-import ProjectsSection from "@/sections/Projects";
-import SkillsSection from "@/sections/Skills";
-import AboutSection from "@/sections/About";
+import ColorPicker from "@/components/ColorPicker";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <main>
-        <HomeSection />
-        <ProjectsSection />
-        <SkillsSection />
-        <AboutSection />
+      <main className="flex justify-center items-center min-h-screen">
+        <ColorPicker />
       </main>
       <Footer />
     </div>
