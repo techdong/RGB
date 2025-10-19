@@ -36,6 +36,5 @@ public/static/
 public/cache/
 
 # Ignore package manager lock files (optional, but recommended)
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
