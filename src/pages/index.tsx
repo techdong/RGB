@@ -1,12 +1,17 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ColorPicker from "@/components/ColorPicker";
+import dynamic from "next/dynamic";
+
+const ColorPicker = dynamic(() => import("@/components/ColorPicker"), {
+  ssr: false,
+  loading: () => null,
+});
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <main className="flex justify-center items-center min-h-screen">
+      <main className="pt-16 flex justify-center items-start min-h-screen px-4">
         <ColorPicker />
       </main>
       <Footer />

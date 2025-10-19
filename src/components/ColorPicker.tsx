@@ -74,6 +74,11 @@ const ColorPicker: React.FC = () => {
             }}
             disableAlpha
           />
+
+          <div
+          className="mt-4 w-56 h-12 rounded-xl shadow-inner border"
+          style={{ backgroundColor: hex }}
+          />
         </div>
 
         {/* HEX Color Display */}
