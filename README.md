@@ -16,7 +16,7 @@ The inspiration for this project came from using the [RapidTables RGB Color Pick
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Clipboard API**: JavaScript
-- **Deployment**: AWS
+- **Deployment**: AWS (S3 + CloudFront) with CI/CD via GitHub Actions and IAM credentials
 
 
 ## 👩🏻‍💻 Author
