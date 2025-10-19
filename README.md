@@ -20,5 +20,5 @@ The inspiration for this project came from using the [RapidTables RGB Color Pick
 
 
 ## 👩🏻‍💻 Author
-**Kako** [GitHub](https://github.com/kakosd)
+**K** [GitHub](https://github.com/kakosd)
 
