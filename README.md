@@ -16,36 +16,8 @@ The inspiration for this project came from using the [RapidTables RGB Color Pick
 - **Styling**: Tailwind CSS
 - **Icons**: Lucide React
 - **Clipboard API**: JavaScript
-- **Deployment**: Vercel
+- **Deployment**: AWS
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```sh
-git clone https://github.com/kakosd/RGB.git
-cd RGB
-```
-### 2. Install Dependencies
-```sh
-npm install
-```
-### 3. Run the Development Server
-```sh
-npm run dev
-```
-Then open http://localhost:3000/ in your browser.
-
-## 🏗️ Build & Deployment
-### 1. Build for Production
-```sh
-npm run build
-```
-2. Deploy to Vercel
-```sh
-vercel
-```
-Or manually connect your GitHub repository to Vercel for automatic deployments.
 
 ## 👩🏻‍💻 Author
 **Kako** [GitHub](https://github.com/kakosd)
