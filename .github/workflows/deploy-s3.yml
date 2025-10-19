@@ -25,10 +25,10 @@ jobs:
         run: npm ci
 
       # 4️⃣ 构建并导出静态文件
-      - name: Build and Export Next.js
+      - name: Build (Next.js static export)
         run: |
           npm run build
-          npx next export
+
 
       # 5️⃣ 配置 AWS 凭证
       - name: Configure AWS credentials
